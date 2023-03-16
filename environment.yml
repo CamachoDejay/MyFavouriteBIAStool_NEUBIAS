@@ -1,0 +1,14 @@
+name: jupyter-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  # image processing
+  - scikit-image
+  # related to jupyter notebooks
+  - jupyterlab
+  - ipykernel
+  # data handling and plotting
+  - pandas
+  - matplotlib
