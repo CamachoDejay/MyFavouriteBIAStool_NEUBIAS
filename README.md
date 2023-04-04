@@ -119,6 +119,7 @@ A bare Jupyter Notebook is not going to take us very far if we try to solve a BI
 ## 7) Importing microscopy images and metadata into python
 One critical aspect when handling microscopy images is the import of data from proprietary file formats and the correct handling of image metadata. Here, we can recommend to look at [AICSImageIO](https://github.com/AllenCellModeling/aicsimageio) a library to handle image reading, metadata conversion, and image writing for microscopy images in python. A minimal example can be found in their [quickstart](https://github.com/AllenCellModeling/aicsimageio#quickstart)
 
+## 8) Python resources for bioimage analysis
 | Name and links | Description|
 | ------------- | ------------- |
 | ZeroCostDL4Mic [Github](https://github.com/HenriquesLab/ZeroCostDL4Mic) [Zenodo](https://doi.org/10.5281/zenodo.5059813)  | Collection of Jupyter Notebooks for Google Colab. Their purpose is to get users started on the use of deep learning for microscopy. It is designed for researchers with little or no coding experience. It includes examples of denoising, segmentation and object detection.  |
@@ -128,6 +129,15 @@ One critical aspect when handling microscopy images is the import of data from p
 | Bio-image Analysis Notebooks [Main-site](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/intro.html) [Zenodo](https://doi.org/10.5281/zenodo.5894792)   | Collection of Jupyter Notebooks written in Python for beginners interested in analysing 3D images. It is writer for biologists with little coding experience. It also contains links to many other resources such as videos, other guides, and Python libraries. |
 | NEUBIAS Academy @HOME: Interactive Bioimage Analysis with Python and Jupyter. [GitHub](https://github.com/guiwitz/neubias_academy_biapy) [Zenodo](https://doi.org/10.5281/zenodo.5122158)  | Introductory course to bioimage processing with Python and Jupyter. The GitHub repository contains a series of Jupyter Notebooks that can be used via binder, Google Colab, or via local installation. The course material also includes a recording of the lecture available on YouTube. |
 | Web-book Introduction to Bioimage Analysis [Main-site](https://bioimagebook.github.io/index.html) | This book covers main ideas of image analysis in a practical way. It is written for biologist with little BIAS or coding experience. The book contains many examples written in Python or in the ImageJ macro language. |
+| Napari [Main-site](https://napari.org/stable/) [Tutorials](https://napari.org/stable/tutorials/index.html) | Napari is a fast, and interactive multi-dimensional image viewer for Python. Due to its integration with the Python ecosystem Napari can be easily coupled to BIAS and machine learning workflows. Further, they host a series of tutorials containing many useful minimal examples. |
+| IAFIG-RMS Python for Bioimage Analysis Course [GitHub](https://github.com/RMS-DAIM/Python-for-Bioimage-Analysis) | Course from the Image Analysis Focused Interest Group of the Royal Microscopical Society (IAFIG-RMS). This is the supporting material of a week-long course on BIAS. The target audience is biologists and analysts with some experience of basic microscopy and image analysis. Most topics are supported via practical Jupyter Notebooks. |
+| Image Analysis Training Resources by NEUBIAS [Main-site](https://neubias.github.io/training-resources/index.html) | This material is mainly aimed at helping bioimage analysis trainers when designing courses. Moreover, the material presents many minimal examples written in Python (and other languages) that are very useful for beginner and advanced analysts alike. |
+| Open Application Development (OAD) by ZEISS microscopy [GitHub](https://github.com/zeiss-microscopy/OAD) | ZEN blue offers various features for automating microscopy workflows and image analysis via Python. This repository contains many Jupyter Notebook examples. |
+| ome-zarr-py [GitHub](https://github.com/ome/ome-zarr-py) | Python library for reading and writing multi-resolution images stored as Zarr filesets, according to the OME-NGFF specification. |
+| Bio-image Analysis with Python[GitHub](https://github.com/BiAPoL/Bio-image_Analysis_with_Python) | Lecture materials "Bio-image analysis, biostatistics, programming and machine learning for computational biology" at the Center of Molecular and Cellular Bioengineering (CMCB) |
+| CSBDeep [GitHub](https://github.com/CSBDeep/CSBDeep) | Python package providing a toolbox for content-aware restoration of fluorescence microscopy images (CARE), based on deep learning via Keras and TensorFlow |
+| Cellpose [GitHub](https://github.com/MouseLand/cellpose) | Generalist algorithm for cellular segmentation with human-in-the-loop capabilities. |
+
 
 
 
