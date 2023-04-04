@@ -8,6 +8,9 @@ The following contect works as supporting material for my article **"Jupyter Not
 
 ## 1) Python Installation using virtual environments
 
+### Python virtual environments
+There are many ways to install Python [e.g.1](https://wiki.python.org/moin/BeginnersGuide/Download) & [e.g.2](https://realpython.com/installing-python/), but in a nutshell, there is something to keep in mind: different projects might need different flavours of Python with different sets of libraries. This is why it is strongly recommended that you manage your Python installations via “virtual environments”. You can think of virtual environments as an isolated set-up of Python that you wish to use including libraries and their versions. They can easily be created, modified and shared. It is for this reason that we suggest an installation workflow that includes the installation of [miniconda](https://docs.conda.io/en/latest/miniconda.html), a tool that can manage multiple virtual environments.
+
 ### 1.1) Installing miniconda: 
 Miniconda is a free minimal installer for conda. The latest installation instructions can be found at:
 https://docs.conda.io/en/latest/miniconda.html  
@@ -41,8 +44,10 @@ To make our current environment (kernel) available to JupyterLab we use:
 ```
 > ipython kernel install --user --name=jupyter-env
 ```
+## JupyterLab’s web interface
+When we launch a Jupyter Notebook, we use the “IPython Kernel” in the background, a library that offers an interactive command line interface. You can think of IPython Kernel as the computer engine that runs the code contained in a Notebook document. ipykernel is installed alongside JupyterLab, and that is why we can use it directly. 
 
-## 2) Starting JupyterLab’s web interface
+### 2) Starting JupyterLab’s web interface
 Starting JupyterLab is very simple. 
 ### 2.1) Open the anaconda prompt
 Open the anaconda prompt and navigate to the desired folder. Below is an example using an empty folder named “jlab” in my “Documents” folder. 
@@ -110,3 +115,19 @@ A bare Jupyter Notebook is not going to take us very far if we try to solve a BI
 ```
 > conda env create -f environment.yml
 ```
+
+## 7) Importing microscopy images and metadata into python
+One critical aspect when handling microscopy images is the import of data from proprietary file formats and the correct handling of image metadata. Here, we can recommend to look at [AICSImageIO](https://github.com/AllenCellModeling/aicsimageio) a library to handle image reading, metadata conversion, and image writing for microscopy images in python. A minimal example can be found in their [quickstart](https://github.com/AllenCellModeling/aicsimageio#quickstart)
+
+| Name and links | Description|
+| ------------- | ------------- |
+| ZeroCostDL4Mic [Github](https://github.com/HenriquesLab/ZeroCostDL4Mic) [Zenodo](https://doi.org/10.5281/zenodo.5059813)  | Collection of Jupyter Notebooks for Google Colab. Their purpose is to get users started on the use of deep learning for microscopy. It is designed for researchers with little or no coding experience. It includes examples of denoising, segmentation and object detection.  |
+| py-clEsperanto [Github](https://github.com/clEsperanto/pyclesperanto)  | Python package of clEsperanto – a multi-language framework for GPU-accelerated image processing. The project is still under heavy development. It includes many Jupyter Notebook examples for segmentation, filtering, and general API examples.  |
+| scikit-image [project site](https://scikit-image.org/) [GitHub](https://github.com/scikit-image/scikit-image)  | scikit-image is a collection of algorithms for image processing. These algorithms are the essential building blocks of BIAS workflows. It has great documentation and many examples that can be run interactively in the web browser with the help of binder. |
+| as | AS|
+
+
+
+
+
+
