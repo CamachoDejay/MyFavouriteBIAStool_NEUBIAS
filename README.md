@@ -1,3 +1,5 @@
+[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+
 # MyFavouriteBIAStool_NEUBIAS
 Favorite imaging analysis tools of NEUBIAS members - editor Kota Miura
 
@@ -53,3 +55,58 @@ Make sure you have activated the ```jupyter-env``` environment (see above instal
 > jupyter lab
 ```
 A web browser should open with the address: http://localhost:8888/lab
+
+## 3) Creating a new Jupyter Notebook
+You can find great documentation on [how to create Notebooks using JupyterLab](https://jupyterlab.readthedocs.io/en/stable/user/notebook.html). Bellow is a minimal example:
+
+3.1) Go to the JupyterLab web interface. 
+
+3.2) Go to File > New > Notebook
+
+3.3) Select the Kernel we have created: ```jupyter-env```
+
+3.4) Go to File > Save Notebook to rename your file as desired: e.g., ```Example.ipynb```
+
+## 4) Notebook Cells
+A Notebook’s cell can contain either live code, or documentation information in the form of formatted text via [Markdown](https://daringfireball.net/projects/markdown/), see for example Figure 02 of the manuscript. To start exploring Notebook Cells write the following on the first cell of your example notebook:
+```
+[ ] print(‘Hi bioimage analyst’)
+```
+Then you can use “ctr + enter” to run the current cell. 
+
+## 5) Simple BIAS Python setup
+A bare Jupyter Notebook is not going to take us very far if we try to solve a BIAS problem. To follow the examples depicted in Figures 1-3 of the article we must install ```scikit-image```, which is a collection of algorithms for image processing written in Python, ```matplotlib``` for creating figures, and ```pandas``` to handle tabular data.
+
+5.1) Go to the Anaconda Prompt
+
+5.2) Activate the jupyter-env
+```
+> conda activate jupyter-env
+```
+
+5.3) Install scikit-image, matplotlib, and pandas by
+
+```
+> conda install -c conda-forge scikit-image matplotlib pandas
+```
+5.4) Go to the desired path, and start JupyterLab
+```
+> jupyter lab
+```
+
+## 6 Sharing your virtual environment with others
+
+6.1) Activate the environment to export, e.g. our Jupyter.env
+```
+> conda activate Jupyter-env
+```
+6.2) Export the active environment to a file
+```
+> conda env export > environment.yml
+```
+6.3) Email a copy of this file together with the Notebook file.
+
+6.4) Instruct your collaborator to create the environment locally from the environment.yml file via:
+```
+> conda env create -f environment.yml
+```
