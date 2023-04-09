@@ -6,7 +6,9 @@ Favorite imaging analysis tools of NEUBIAS members - editor Kota Miura
 The following contect works as supporting material for my article **"Jupyter Notebooks: my favourite tool for generating and distributing bioimage analysis pipelines"**
 
 
-## 1) Python Installation using virtual environments
+## 1) Python & JupyterLab Installation using virtual environments
+
+The Jupyter Notebook is available as a part of JupyterLab, so my recommendation is to install JupyterLab as it is the latest generation of the Jupyter project. While JupyterLab is itself a useful development environment, other Integrated Development Environments have great support for Jupyter Notebooks and allow for customization and ease of use, such as [PyCharm](https://www.jetbrains.com/help/pycharm/jupyter-notebook-support.html) and [VSCode](https://code.visualstudio.com/docs/datascience/jupyter-notebooks).
 
 ### Python virtual environments
 There are many ways to install Python [e.g.1](https://wiki.python.org/moin/BeginnersGuide/Download) & [e.g.2](https://realpython.com/installing-python/), but in a nutshell, there is something to keep in mind: different projects might need different flavours of Python with different sets of libraries. This is why it is strongly recommended that you manage your Python installations via “virtual environments”. You can think of virtual environments as an isolated set-up of Python that you wish to use including libraries and their versions. They can easily be created, modified and shared. It is for this reason that we suggest an installation workflow that includes the installation of [miniconda](https://docs.conda.io/en/latest/miniconda.html), a tool that can manage multiple virtual environments.
