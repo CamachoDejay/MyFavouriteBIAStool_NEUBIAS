@@ -116,6 +116,8 @@ A bare Jupyter Notebook is not going to take us very far if we try to solve a BI
 > conda env create -f environment.yml
 ```
 
+The managing of environments is an interesting topic in its own right and good documentation can be found at the [anaconda site](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
+
 ## 7) Importing microscopy images and metadata into python
 One critical aspect when handling microscopy images is the import of data from proprietary file formats and the correct handling of image metadata. Here, we can recommend to look at [AICSImageIO](https://github.com/AllenCellModeling/aicsimageio) a library to handle image reading, metadata conversion, and image writing for microscopy images in python. A minimal example can be found in their [quickstart](https://github.com/AllenCellModeling/aicsimageio#quickstart)
 
