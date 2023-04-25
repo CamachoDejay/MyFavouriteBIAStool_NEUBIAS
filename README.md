@@ -1,9 +1,9 @@
 [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
-# MyFavouriteBIAStool_NEUBIAS
-Favorite imaging analysis tools of NEUBIAS members - editor Kota Miura
+# Jupyter Notebooks for Generating and Distributing Bioimage Analysis Workflows
 
-The following contect works as supporting material for my article **"Jupyter Notebooks: my favourite tool for generating and distributing bioimage analysis pipelines"**
+The following contect works as supporting material for my article **"Jupyter Notebooks for Generating and Distributing Bioimage Analysis Workflows"**, which is part of the 
+My Favorite Image Analysis Tool series, by Neubias Members - editor Kota Miura
 
 
 ## 1) Python & JupyterLab Installation using virtual environments
