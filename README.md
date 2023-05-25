@@ -2,7 +2,7 @@
 
 # Jupyter Notebooks for Generating and Distributing Bioimage Analysis Workflows
 
-The following contect works as supporting material for my article **"Jupyter Notebooks for Generating and Distributing Bioimage Analysis Workflows"**, which is part of the 
+The following contect works as supporting material for my article [**"Jupyter Notebooks for Generating and Distributing Bioimage Analysis Workflows"**](https://analyticalscience.wiley.com/do/10.1002/was.0004000374), which is part of the 
 My Favorite Image Analysis Tool series, by Neubias Members - editor Kota Miura
 
 
